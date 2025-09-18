@@ -12,7 +12,6 @@ import { remarkModifiedTime } from './src/plugins/remark-modified-time.mjs'
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://kanbii-davidpulgarin.github.io',
-	base: '/saral-theme-astro',
 	integrations: [
 		mdx(),
 		sitemap(),
